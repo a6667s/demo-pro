@@ -1,5 +1,2 @@
-eveno=[]
-for x in range(10):
-    if x % 2 == 0:
-        eveno.append(x)
-print(eveno)
+filter(lambda x: x % 2 == 0, range(10))
+print(x)
